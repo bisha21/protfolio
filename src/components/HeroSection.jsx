@@ -14,7 +14,7 @@ import mycv from '../assets/cv.pdf';
 export default function HeroSection() {
   return (
     <main className="relative overflow-hidden">
-      <section className="max-w-screen-2xl container mx-auto px-4 sm:px-6 md:px-20 py-10 flex items-center justify-center  min-h-xl md:min-h-screen">
+      <section className="max-w-screen-2xl container mx-auto px-4 sm:px-6 md:px-20 py-10 flex items-center justify-center  min-h-xl md:min-h-[86vh]">
         <div className="flex flex-col-reverse md:flex-row items-center">
           {/* Left Side */}
           <motion.div
