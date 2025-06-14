@@ -79,7 +79,7 @@ export const Navbar = () => {
         <div
           ref={sidebarRef}
           className={cn(
-            'fixed top-0 left-0 bg-gray-800 text-white w-56 h-full overflow-y-auto transform transition-transform duration-300 z-40 md:hidden',
+            'fixed h-screen top-0 left-0 bg-gray-900 w-1/2 z-50 transition-transform duration-300 ease-in-out',
             isMenuOpen ? 'translate-x-0' : '-translate-x-full'
           )}
         >
